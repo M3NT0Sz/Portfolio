@@ -16,6 +16,7 @@ header{
     align-items: center;
     text-align: center;
     font-size: 30px;
+    position: fixed;
 }
 
 header > nav > ul{
@@ -60,17 +61,21 @@ header > .direita > button:hover{
 }
 
 .esquerda{
+    position: fixed;
     display: flex;
     left: 0;
-    position: fixed;
     margin-left: 20px;
 }
 
 .direita{
+    position: fixed;
     display: flex;
     right: 0;
-    position: fixed;
     margin-right: 20px;
+}
+
+section{
+    padding-top: 75px;
 }
 
 section > main{
